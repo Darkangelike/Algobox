@@ -1,0 +1,411 @@
+C_i_hangedMan - Redone  -  29.07.2021
+
+******************************************
+
+******************************************
+
+1   FONCTIONS_UTILISEES
+2     FONCTION displayHangedMan(n)
+3       VARIABLES_FONCTION
+4       DEBUT_FONCTION
+5       SI (n == 0) ALORS
+6         DEBUT_SI
+7         AFFICHER " "
+8         AFFICHER "                       | I guess it is just"
+9         AFFICHER "                      /| me and my beer then..."
+10        AFFICHER "                     /  "
+11        AFFICHER "                   0   .."
+12        AFFICHER "                 _/|\\_o[]"
+13        AFFICHER "                   |      "
+14        AFFICHER "                  / \\     "
+15        AFFICHER "             ____/___\\____"
+16        FIN_SI
+17      SI (n == 1) ALORS
+18        DEBUT_SI
+19        AFFICHER " "
+20        AFFICHER " "
+21        AFFICHER "                     Oops."
+22        AFFICHER "                      /"
+23        AFFICHER " "
+24        AFFICHER "               _     _"
+25        AFFICHER "                \\   /"
+26        AFFICHER "             ____\\ /___"
+27        AFFICHER "                  |"
+28        AFFICHER "                 /O\\  "
+29        AFFICHER "                /   \\ "
+30        FIN_SI
+31      SI (n == 2) ALORS
+32        DEBUT_SI
+33        AFFICHER " "
+34        AFFICHER "          o   "
+35        AFFICHER "         |___     "
+36        AFFICHER "         O  o\\_   "
+37        AFFICHER " "
+38        FIN_SI
+39      SI (n == 3) ALORS
+40        DEBUT_SI
+41        AFFICHER "                            k bye"
+42        AFFICHER "                             /                       uh..."
+43        AFFICHER "                                                    / "
+44        AFFICHER "        ==0      ==0      ==0_/     ==0_/"
+45        AFFICHER "         /\\/      /\\_.     /\\_       /\\        _==0_/"
+46        AFFICHER "        |\\       |\\       |\\        |\\ \\      |\\ \\_"
+47        AFFICHER "        /  |     /  |     /  |      / |      / /"
+48        AFFICHER "      oo  oo   oo  oo   oo  oo    oo  oo    oo oo"
+49        PAUSE
+50        AFFICHER " "
+51        AFFICHER "       ==0  ,   ==0_/   ==0_/"
+52        AFFICHER "        /|\\/      /\\     \\/\\ _            oo oo"
+53        AFFICHER "      ,/ |\\     ,/ |\\       | \\       \\   / /  "
+54        AFFICHER "        /  |      /  |      /  oo    ==0__\\/"
+55        AFFICHER "       oo  oo    oo  oo    oo         \\/"
+56        FIN_SI
+57      SI (n == 4) ALORS
+58        DEBUT_SI
+59        AFFICHER " "
+60        AFFICHER "Actually, I'm alone, sitting on my butt staring at a computer screen."
+61        AFFICHER "                                              - A not funny person."
+62        AFFICHER " "
+63        AFFICHER "                             _"
+64        AFFICHER "                        ~0  (_|"
+65        AFFICHER "                       |(_~|^~~|"
+66        AFFICHER "                       TT/_\ T°T"
+67        AFFICHER " "
+68        FIN_SI
+69      SI (n == 10) ALORS
+70        DEBUT_SI
+71        AFFICHER " "
+72        AFFICHER "            +---+"
+73        AFFICHER "            |   |"
+74        AFFICHER "                |"
+75        AFFICHER "                |"
+76        AFFICHER "                |"
+77        AFFICHER "                |"
+78        AFFICHER "          ========='''"
+79        AFFICHER " "
+80        FIN_SI
+81      SI (n == 11) ALORS
+82        DEBUT_SI
+83        AFFICHER " "
+84        AFFICHER "            +---+"
+85        AFFICHER "            |   |"
+86        AFFICHER "            O   |"
+87        AFFICHER "                |"
+88        AFFICHER "                |"
+89        AFFICHER "                |"
+90        AFFICHER "          ========='''"
+91        AFFICHER " "
+92        FIN_SI
+93      SI (n == 12) ALORS
+94        DEBUT_SI
+95        AFFICHER " "
+96        AFFICHER "            +---+"
+97        AFFICHER "            |   |"
+98        AFFICHER "            O   |"
+99        AFFICHER "            |   |"
+100       AFFICHER "                |"
+101       AFFICHER "                |"
+102       AFFICHER "          ========='''"
+103       AFFICHER " "
+104       FIN_SI
+105     SI (n == 13) ALORS
+106       DEBUT_SI
+107       AFFICHER " "
+108       AFFICHER "            +---+"
+109       AFFICHER "            |   |"
+110       AFFICHER "            O   |"
+111       AFFICHER "           /|   |"
+112       AFFICHER "                |"
+113       AFFICHER "                |"
+114       AFFICHER "          ========='''"
+115       AFFICHER " "
+116       FIN_SI
+117     SI (n == 14) ALORS
+118       DEBUT_SI
+119       AFFICHER " "
+120       AFFICHER "            +---+"
+121       AFFICHER "            |   |"
+122       AFFICHER "            O   |"
+123       AFFICHER "           /|\\  |"
+124       AFFICHER "                |"
+125       AFFICHER "                |"
+126       AFFICHER "          ========='''"
+127       AFFICHER " "
+128       FIN_SI
+129     SI (n == 15) ALORS
+130       DEBUT_SI
+131       AFFICHER " "
+132       AFFICHER "            +---+"
+133       AFFICHER "            |   |"
+134       AFFICHER "            O   |"
+135       AFFICHER "           /|\\  |"
+136       AFFICHER "           /    |"
+137       AFFICHER "                |"
+138       AFFICHER "          ========='''"
+139       AFFICHER " "
+140       FIN_SI
+141     SI (n == 16) ALORS
+142       DEBUT_SI
+143       AFFICHER " "
+144       AFFICHER "            +---+"
+145       AFFICHER "            |   |"
+146       AFFICHER "            O   |"
+147       AFFICHER "           /|\\  |"
+148       AFFICHER "           / \\  |"
+149       AFFICHER "                |"
+150       AFFICHER "          ========='''"
+151       AFFICHER " "
+152       FIN_SI
+153     SI (n == 17) ALORS
+154       DEBUT_SI
+155       AFFICHER " "
+156       AFFICHER "                        | Hey !   "
+157       AFFICHER "                 ,     /| You !"
+158       AFFICHER "                 \\    /  "
+159       AFFICHER "                  \\0    "
+160       AFFICHER "                   |\\_   "
+161       AFFICHER "                   |      "
+162       AFFICHER "                  / \\     "
+163       AFFICHER "             ____/___\\____"
+164       FIN_SI
+165     SI (n == 18) ALORS
+166       DEBUT_SI
+167       AFFICHER " "
+168       AFFICHER "                       | Would you like"
+169       AFFICHER "                      /| to play with me ? "
+170       AFFICHER "                     /  "
+171       AFFICHER "                   0     "
+172       AFFICHER "                 _/|\\_   "
+173       AFFICHER "                   |      "
+174       AFFICHER "                  / \\     "
+175       AFFICHER "             ____/___\\____"
+176       FIN_SI
+177     SI (n == 19) ALORS
+178       DEBUT_SI
+179       AFFICHER " "
+180       AFFICHER " "
+181       AFFICHER "                      /| Yes ! Would you like"
+182       AFFICHER "                     / | to know the rules ?"
+183       AFFICHER "                 . 0     "
+184       AFFICHER "                 \\/|\\__   "
+185       AFFICHER "                   |      "
+186       AFFICHER "                  / \\     "
+187       AFFICHER "             ____/___\\____"
+188       FIN_SI
+189     SI (n == 20) ALORS
+190       DEBUT_SI
+191       AFFICHER " "
+192       AFFICHER "                       | The rules are simple. Someone wants to kill me."
+193       AFFICHER "                      /| And you are the only one who can save me!"
+194       AFFICHER "                     / | You just have to guess a word."
+195       AFFICHER "                   0   | You have 7 chances to guess one letter right"
+196       AFFICHER "                 _/|\\_ | from the word."
+197       AFFICHER "                   |      "
+198       AFFICHER "                  / \\     "
+199       AFFICHER "             ____/___\\____"
+200       FIN_SI
+201     SI (n == 21) ALORS
+202       DEBUT_SI
+203       AFFICHER " "
+204       AFFICHER "                      ,"
+205       AFFICHER "                     /  |    Perfect !"
+206       AFFICHER "                   0/ __|   Let's play"
+207       AFFICHER "                 \\/|    |      NOW !"
+208       AFFICHER "                   |      "
+209       AFFICHER "                  / \\     "
+210       AFFICHER "             ____/___\\____"
+211       FIN_SI
+212     SI (n == 22) ALORS
+213       DEBUT_SI
+214       AFFICHER " "
+215       AFFICHER "            +---+"
+216       AFFICHER "            |   |"
+217       AFFICHER "                |"
+218       AFFICHER "                |"
+219       AFFICHER "                |"
+220       AFFICHER "                |"
+221       AFFICHER "          ========='''  The word and the rope are ready !"
+222       AFFICHER " "
+223       FIN_SI
+224     
+225     FIN_FONCTION
+226   FONCTION guessLetter( )
+227     VARIABLES_FONCTION
+228       aLetter EST_DU_TYPE CHAINE
+229       wordToGuess2 EST_DU_TYPE CHAINE
+230       countFails EST_DU_TYPE NOMBRE
+231       j EST_DU_TYPE NOMBRE
+232       boolGuess EST_DU_TYPE NOMBRE
+233       turn EST_DU_TYPE NOMBRE
+234       hiddenWord EST_DU_TYPE LISTE
+235     DEBUT_FONCTION
+236     turn PREND_LA_VALEUR 0
+237     boolGuess PREND_LA_VALEUR 1
+238     LIRE wordToGuess2
+239     wordToGuess2 PREND_LA_VALEUR wordToGuess2.toUpperCase()
+240     POUR i ALLANT_DE 0 A wordToGuess2.length - 1
+241       DEBUT_POUR
+242       asciiNumber PREND_LA_VALEUR wordToGuess2.charCodeAt(i)
+243       SI (asciiNumber < 65 || asciiNumber > 90) ALORS
+244         DEBUT_SI
+245         boolGuess PREND_LA_VALEUR 0
+246         FIN_SI
+247       FIN_POUR
+248     TANT_QUE (boolGuess == 0) FAIRE
+249       DEBUT_TANT_QUE
+250       AFFICHER "Special caracters and numbers are invalid."
+251       APPELER_FONCTION guessLetter()
+252       FIN_TANT_QUE
+253     //Display first picture and hidden word
+254     SI (turn == 0) ALORS
+255       DEBUT_SI
+256       APPELER_FONCTION displayHangedMan(22)
+257       FIN_SI
+258       SINON
+259         DEBUT_SINON
+260         APPELER_FONCTION displayHangedMan(countFails)
+261         FIN_SINON
+262     
+263     POUR i ALLANT_DE 0 A wordToGuess2.length - 1
+264       DEBUT_POUR
+265       hiddenWord PREND_LA_VALEUR "_"
+266       FIN_POUR
+267     turn PREND_LA_VALEUR turn + 1
+268     countFails PREND_LA_VALEUR 10
+269     TANT_QUE (countFails != 17) FAIRE
+270       DEBUT_TANT_QUE
+271       LIRE aLetter
+272       aLetter PREND_LA_VALEUR aLetter.toUpperCase()
+273       asciiNumber PREND_LA_VALEUR aLetter.charCodeAt(0)
+274       TANT_QUE (aLetter.length > 1 || asciiNumber < 65 || asciiNumber > 90) FAIRE
+275         DEBUT_TANT_QUE
+276         AFFICHER "You can only choose one letter."
+277         AFFICHER "Special caracters and numbers are invalid."
+278         LIRE aLetter
+279         aLetter PREND_LA_VALEUR aLetter.toUpperCase()
+280         asciiNumber PREND_LA_VALEUR aLetter.charCodeAt(0)
+281         FIN_TANT_QUE
+282       
+283       boolGuess PREND_LA_VALEUR 0
+284       //Check if the letter is found
+285       POUR i ALLANT_DE 0 A wordToGuess2.length -1
+286         DEBUT_POUR
+287         SI (aLetter == wordToGuess[i]) ALORS
+288           DEBUT_SI
+289           boolGuess PREND_LA_VALEUR 1
+290           FIN_SI
+291         FIN_POUR
+292       SI (boolGuess == 0) ALORS
+293         DEBUT_SI
+294         countFails PREND_LA_VALEUR countFails + 1
+295         FIN_SI
+296         SINON
+297           DEBUT_SINON
+298           
+299           FIN_SINON
+300       FIN_TANT_QUE
+301     
+302     FIN_FONCTION
+303   FONCTION isAlpha(question1)
+304     VARIABLES_FONCTION
+305       w EST_DU_TYPE CHAINE
+306       questionIsAlpha EST_DU_TYPE CHAINE
+307       i EST_DU_TYPE NOMBRE
+308       asciiNumber EST_DU_TYPE NOMBRE
+309       booleanIsAlpha EST_DU_TYPE NOMBRE
+310     DEBUT_FONCTION
+311     booleanIsAlpha PREND_LA_VALEUR 1
+312     questionIsAlpha PREND_LA_VALEUR question1
+313     AFFICHER questionIsAlpha
+314     LIRE w
+315     AFFICHER "Show word before upper case :"
+316     AFFICHER w
+317     w PREND_LA_VALEUR w.toUpperCase()
+318     AFFICHER "Show word after upper case :"
+319     AFFICHER w
+320     POUR i ALLANT_DE 0 A w.length - 1
+321       DEBUT_POUR
+322       asciiNumber PREND_LA_VALEUR w.charCodeAt(i)
+323       SI (asciiNumber < 65 || asciiNumber > 90) ALORS
+324         DEBUT_SI
+325         booleanIsAlpha PREND_LA_VALEUR 0
+326         FIN_SI
+327       FIN_POUR
+328     AFFICHER "Show word after ascii check :"
+329     AFFICHER w
+330     TANT_QUE (booleanIsAlpha == 0) FAIRE
+331       DEBUT_TANT_QUE
+332       AFFICHER "Numbers and special characters are invalid."
+333       RENVOYER isAlpha(question1)
+334       FIN_TANT_QUE
+335     RENVOYER w
+336     FIN_FONCTION
+337   FONCTION startGame(question2)
+338     VARIABLES_FONCTION
+339       questionGame EST_DU_TYPE CHAINE
+340       answerGame EST_DU_TYPE NOMBRE
+341       wordToGuess EST_DU_TYPE CHAINE
+342       guessedWord EST_DU_TYPE CHAINE
+343       guessedLetter EST_DU_TYPE CHAINE
+344       randomN EST_DU_TYPE NOMBRE
+345     DEBUT_FONCTION
+346     questionGame PREND_LA_VALEUR question2
+347     APPELER_FONCTION displayHangedMan(17)
+348     PAUSE
+349     APPELER_FONCTION displayHangedMan(18)
+350     answerGame PREND_LA_VALEUR YesOrNoBoolean()
+351     SI (answerGame == 1) ALORS
+352       DEBUT_SI
+353       APPELER_FONCTION displayRules()
+354       APPELER_FONCTION guessLetter()
+355       AFFICHER "si bool == 0 display fail"
+356       AFFICHER "si bool = 1 display happy"
+357       FIN_SI
+358       SINON
+359         DEBUT_SINON
+360         randomN PREND_LA_VALEUR ALGOBOX_ALEA_ENT(0,4)
+361         APPELER_FONCTION displayHangedMan(randomN)
+362         FIN_SINON
+363     FIN_FONCTION
+364   FONCTION YesOrNoBoolean( question3)
+365     VARIABLES_FONCTION
+366       boolean EST_DU_TYPE NOMBRE
+367       questionYN EST_DU_TYPE CHAINE
+368       answerYN EST_DU_TYPE CHAINE
+369     DEBUT_FONCTION
+370     boolean PREND_LA_VALEUR 0
+371     questionYN PREND_LA_VALEUR question3
+372     AFFICHER questionYN
+373     AFFICHER " (Yes/No)"
+374     LIRE answerYN
+375     answerYN PREND_LA_VALEUR answerYN.toLowerCase()
+376     TANT_QUE (answerYN != "yes" & answerYN != "no") FAIRE
+377       DEBUT_TANT_QUE
+378       AFFICHER "Invalid."
+379       AFFICHER questionYN
+380       LIRE answerYN
+381       answerYN PREND_LA_VALEUR answerYN.toLowerCase()
+382       FIN_TANT_QUE
+383     SI (answerYN == "yes") ALORS
+384       DEBUT_SI
+385       boolean PREND_LA_VALEUR 1
+386       FIN_SI
+387     RENVOYER boolean
+388     FIN_FONCTION
+389   FONCTION displayRules( )
+390     VARIABLES_FONCTION
+391       booleanRules EST_DU_TYPE NOMBRE
+392     DEBUT_FONCTION
+393     APPELER_FONCTION displayHangedMan(19)
+394     booleanRules PREND_LA_VALEUR YesOrNoBoolean()
+395     SI (booleanRules == "1") ALORS
+396       DEBUT_SI
+397       APPELER_FONCTION displayHangedMan(20)
+398       PAUSE
+399       FIN_SI
+400     APPELER_FONCTION displayHangedMan(21)
+401     FIN_FONCTION
+402 VARIABLES
+403 DEBUT_ALGORITHME
+404   APPELER_FONCTION startGame()
+405 FIN_ALGORITHME
